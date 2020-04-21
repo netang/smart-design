@@ -5,7 +5,8 @@
 `python3 app.py`
 
 ### Создание товара
-```curl --location --request POST 'http://0.0.0.0:8080/items' \
+```
+curl --location --request POST 'http://0.0.0.0:8080/items' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	"name": "Товар 1",
